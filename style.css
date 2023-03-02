@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/492726.jpg");
+    background-position: center;
+    background-size:cover;
+
+    min-height: 100vh;
+}
+
+.section {
+    padding-left: 18vw;
+    padding-top: 33vh;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: rgb(29, 216, 230);
+    margin-right: 1rem;
+}
+
+a:hover, .menu-item:hover, #menu-button:hover
+{
+    opacity: 0.7;
+}
+
+#home h1 {
+    font-size: 5rem;
+    color: whitesmoke;
+
+}
+
+.emphasis {
+    color: rgb(29, 216, 230);
+}
+
+#home p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+#about, #funfacts, #contact {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: inherit;
+    background: transparent;
+    color: rgb(29, 216, 230);
+}
+
+#menu-button {
+    position: fixed;
+
+    right: 3rem;
+    top: 3rem;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+
+}
+
+#menu {
+    position: fixed;
+    top: 30vh;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#about {
+    padding-left: 18vw;
+    padding-top: 33vh;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(29, 216, 230);
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+.aboutText {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(29, 216, 230);
+}
+
+#aboutHeader {
+    font-size: 60px;
+}
+
+#aboutParagraph {
+    font-size: 37px;
+    color: whitesmoke;
+}
+
+#funfacts {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    padding-left: 18vw;
+    padding-top: 33vh;
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+#funfactsheader {
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: rgb(29, 216, 230);
+}
+
+#funfactstext {
+    font-size: 37px;
+}
+
+#contact {
+    padding-left: 18vw;
+    padding-top: 33vh;
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+#contactheader {
+    color: whitesmoke;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#contactText {
+    color: whitesmoke;
+    font-size: 37px;
+}
+
+
+
+
+    
+
+

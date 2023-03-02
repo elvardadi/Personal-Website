@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Elvar Daði Pálmason">
+
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Import-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Favicon import-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="stylesheet" href="style.css">
+    <title>Elvar Daði</title>
+</head>
+<body>
+
+    <main id="main-section">
+        <div id="home" class="section">
+            <h1>Elvar Daði <span class="emphasis">Pálmason</span> </h1>
+            <p>Aspiring Programmer, Student & Language enthusiast</p>
+            <a href="https://www.instagram.com/elvardadi/" class="fa fa-instagram fa-4x icon-link" target="_blank"></a>
+            <a href="https://www.facebook.com/elvardp/" class="fa fa-facebook-square fa-4x icon-link" target="_blank"></a>
+        </div>
+        <div id="about" class="aboutText">
+            <h2 id="aboutHeader">About</h2>
+            <p2 id="aboutParagraph">My name is <span class="emphasis">Elvar Daði Pálmason</span> and i'm from the beautiful country of <span class="emphasis">Iceland</span>. </p2>
+
+        </div>
+        <div id="funfacts">
+            <h3 id="funfactsheader">Fun facts about me</h3>
+            <p3 id="funfactstext">
+            I know 2 languages to perfection and 3 to a good extent
+            <br /><br />
+            <span class="emphasis">I played football and basketball when I was younger.</span>
+            <br /><br/>
+            I have reached Global Elite in Counter Strike: Global Offensive
+            <br /><br />
+            <span class="emphasis">I have had sex.</span></p3>
+
+        </div>
+        <div id="contact">
+            <h3 id="contactheader">Contact</h3>
+            <p4 id="contactText">Contact me at <span class="emphasis">elvardadi1@gmail.com</span></p4>
+
+        </div>
+    
+    </main>
+
+    <!-- Menu -->
+    <button id="menu-button" class="fa fa-navicon fa-3x" onclick="toggleMenu()"></button>
+
+    <div id="menu">
+        <button class="menu-item" onclick="showHomePage()">Home</button>
+        <button class="menu-item" onclick="showAbout()">About</button>
+        <button class="menu-item" onclick="showFunFacts()">Fun Facts</button>
+        <button class="menu-item" onclick="showContact()">Contact</button>
+    </div>
+ 
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
